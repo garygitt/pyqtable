@@ -1,12 +1,12 @@
 #TABLE LOAD
-
+#
 self.table_data = QtGui.QTableView()
 cols=['rowid','data']
 data = [(1,'data1'),(2,'data2'),]
 table.load(self.table_data,data,cols,order=0,col=0)
 
 #TABLE SORT
-
+#
 def context(self,pos):
 		mainmenu = QtGui.QMenu("Menu", self)
 		mainmenu.addAction("Sort")
