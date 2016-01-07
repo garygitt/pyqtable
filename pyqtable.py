@@ -40,7 +40,6 @@ class table:
 						val=str( val )
 					if row == 0: 
 						cols.append( cname )
-						print cname
 					data[cname]=val
 				out.append(data)
 			return cols,out
