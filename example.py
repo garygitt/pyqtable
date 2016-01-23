@@ -5,6 +5,7 @@ data = [(1,'data1'),(2,'data2'),]
 table.load(self.table_data,data,cols,order=0,col=0)
 
 #TABLE SORT
+# must set context menu poicy in property editor
 def context(self,pos):
 		mainmenu = QtGui.QMenu("Menu", self)
 		mainmenu.addAction("Sort")
